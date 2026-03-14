@@ -1,17 +1,25 @@
-console.log("IAI.ONE loaded")
+function setLang(lang){
 
-document.querySelectorAll(".app").forEach(function(el){
+localStorage.setItem("lang",lang);
 
-el.addEventListener("mouseover",function(){
+location.reload();
 
-el.style.transform="scale(1.05)"
+}
 
-})
+function loadLang(){
 
-el.addEventListener("mouseout",function(){
+const lang = localStorage.getItem("lang") || "vi";
 
-el.style.transform="scale(1)"
+let L = LANG_VI;
 
-})
+if(lang==="en") L = LANG_EN;
 
-})
+document.querySelectorAll("[data-lang]").forEach(el=>{
+const key = el.getAttribute("data-lang");
+
+if(L[key]) el.innerText = L[key];
+});
+
+}
+
+document.addEventListener("DOMContentLoaded",loadLang);
