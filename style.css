@@ -1,68 +1,361 @@
-body{
-background:#0b0f14;
-color:#e6edf3;
-font-family:Inter,system-ui;
-margin:0;
-}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
 
-.header{
-display:flex;
-justify-content:space-between;
-padding:20px 40px;
-border-bottom:1px solid #1e2630;
-}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 
-.logo{
-font-weight:700;
-letter-spacing:2px;
-}
+<title>IAI.ONE — Human Intelligence Infrastructure</title>
 
-.nav a{
-margin-left:20px;
-color:#e6edf3;
-text-decoration:none;
-}
+<meta name="description" content="IAI.ONE là hạ tầng trí tuệ con người cho thời đại trí tuệ nhân tạo. Một hệ sinh thái công cụ, tri thức và cộng đồng giúp cá nhân và xã hội phát triển bền vững.">
 
-.hero{
-text-align:center;
-padding:120px 20px;
-}
+<link rel="stylesheet" href="style.css">
 
-.hero h1{
-font-size:48px;
-}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-.hero p{
-font-size:18px;
-max-width:600px;
-margin:auto;
-}
+</head>
 
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:20px;
-padding:40px;
-}
+<body>
 
-.card{
-background:#121821;
-padding:30px;
-border-radius:8px;
-}
+<header class="site-header">
 
-.app{
-display:block;
-background:#121821;
-padding:30px;
-text-align:center;
-border-radius:8px;
-text-decoration:none;
-color:white;
-}
+<div class="header-inner">
 
-.footer{
-text-align:center;
-padding:40px;
-border-top:1px solid #1e2630;
-}
+<div class="logo">
+IAI.ONE
+</div>
+
+<nav class="main-nav">
+
+<a href="#ecosystem">Ecosystem</a>
+<a href="#architecture">AGI</a>
+<a href="#civilization">Civilization</a>
+<a href="#apps">Platforms</a>
+<a href="#philosophy">Philosophy</a>
+<a href="about.html">About</a>
+
+</nav>
+
+</div>
+
+</header>
+
+
+
+<section class="hero">
+
+<div class="hero-inner">
+
+<h1>
+Human Intelligence Infrastructure
+</h1>
+
+<p>
+Một hệ sinh thái công cụ, tri thức và cộng đồng được xây dựng để giúp con người phát triển trong thời đại trí tuệ nhân tạo.
+</p>
+
+<div class="hero-buttons">
+
+<a class="btn-primary" href="#ecosystem">Khám phá hệ sinh thái</a>
+<a class="btn-secondary" href="#apps">Các nền tảng</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="ecosystem" class="section ecosystem">
+
+<div class="section-header">
+
+<h2>IAI Ecosystem</h2>
+
+<p>
+Hệ sinh thái IAI.ONE được thiết kế như một hạ tầng trí tuệ toàn diện cho con người, kết nối tri thức, công cụ AI và cộng đồng.
+</p>
+
+</div>
+
+<div class="ecosystem-map">
+
+<div class="node center">
+
+<span>IAI</span>
+
+</div>
+
+<div class="node node1">
+
+<span>Human Intelligence</span>
+
+</div>
+
+<div class="node node2">
+
+<span>AGI Tools</span>
+
+</div>
+
+<div class="node node3">
+
+<span>Knowledge Systems</span>
+
+</div>
+
+<div class="node node4">
+
+<span>Community Networks</span>
+
+</div>
+
+<div class="node node5">
+
+<span>Collaborative Economy</span>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="architecture" class="section architecture">
+
+<div class="section-header">
+
+<h2>AGI Architecture</h2>
+
+<p>
+IAI.ONE phát triển các công cụ AGI hỗ trợ con người trong việc ra quyết định, học tập và xây dựng hệ thống tri thức.
+</p>
+
+</div>
+
+<div class="architecture-grid">
+
+<div class="arch-card">
+
+<h3>Data Layer</h3>
+
+<p>
+Thu thập dữ liệu hành vi, tri thức và bối cảnh xã hội để xây dựng các mô hình phân tích.
+</p>
+
+</div>
+
+<div class="arch-card">
+
+<h3>Model Layer</h3>
+
+<p>
+Các mô hình AI và AGI hỗ trợ phân tích, dự đoán và tạo ra tri thức mới.
+</p>
+
+</div>
+
+<div class="arch-card">
+
+<h3>Automation Layer</h3>
+
+<p>
+Các hệ thống tự động hóa workflow và quy trình nghiên cứu.
+</p>
+
+</div>
+
+<div class="arch-card">
+
+<h3>Interface Layer</h3>
+
+<p>
+Các nền tảng web và ứng dụng giúp con người tương tác với hệ thống.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="civilization" class="section civilization">
+
+<div class="section-header">
+
+<h2>Civilization Operating System</h2>
+
+<p>
+Một mô hình vận hành xã hội dựa trên tri thức, cộng đồng và hợp tác thay vì đầu cơ.
+</p>
+
+</div>
+
+<div class="civilization-diagram">
+
+<div class="civil-node">
+
+Individuals
+
+</div>
+
+<div class="civil-node">
+
+Communities
+
+</div>
+
+<div class="civil-node">
+
+Knowledge Networks
+
+</div>
+
+<div class="civil-node">
+
+Collaborative Economy
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="apps" class="section apps">
+
+<div class="section-header">
+
+<h2>Platforms</h2>
+
+<p>
+Các nền tảng trong hệ sinh thái IAI.ONE hỗ trợ con người học tập, ra quyết định và xây dựng cộng đồng.
+</p>
+
+</div>
+
+<div class="app-grid">
+
+<a class="app-card" href="https://flow.iai.one">
+
+<h3>IAI Flow</h3>
+
+<p>
+Workflow automation và AGI orchestration.
+</p>
+
+</a>
+
+<a class="app-card" href="https://lifecode.iai.one">
+
+<h3>LifeCode</h3>
+
+<p>
+Hệ thống phân tích cấu trúc đời người và chu kỳ thời gian.
+</p>
+
+</a>
+
+<a class="app-card" href="#">
+
+<h3>Knowledge</h3>
+
+<p>
+Hạ tầng tri thức mở.
+</p>
+
+</a>
+
+<a class="app-card" href="#">
+
+<h3>Research</h3>
+
+<p>
+Công cụ nghiên cứu và phân tích tri thức.
+</p>
+
+</a>
+
+<a class="app-card" href="#">
+
+<h3>Community</h3>
+
+<p>
+Mạng lưới cộng đồng toàn cầu.
+</p>
+
+</a>
+
+<a class="app-card" href="#">
+
+<h3>Projects</h3>
+
+<p>
+Các dự án và sáng kiến trong hệ sinh thái.
+</p>
+
+</a>
+
+</div>
+
+</section>
+
+
+
+<section id="philosophy" class="section philosophy">
+
+<div class="section-header">
+
+<h2>Philosophy</h2>
+
+</div>
+
+<div class="philosophy-content">
+
+<p>
+IAI.ONE được xây dựng trên niềm tin rằng trí tuệ con người và trí tuệ nhân tạo có thể hợp tác để tạo ra một nền văn minh bền vững.
+</p>
+
+<p>
+Hệ thống này không nhằm thay thế con người mà nhằm tăng cường khả năng nhận thức và ra quyết định của mỗi cá nhân.
+</p>
+
+<p>
+Mục tiêu cuối cùng là xây dựng một nền kinh tế và cộng đồng dựa trên tri thức, hợp tác và phát triển lâu dài.
+</p>
+
+</div>
+
+</section>
+
+
+
+<footer class="site-footer">
+
+<div class="footer-inner">
+
+<div class="footer-logo">
+IAI.ONE
+</div>
+
+<p>
+Human Intelligence Infrastructure
+</p>
+
+</div>
+
+</footer>
+
+
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
