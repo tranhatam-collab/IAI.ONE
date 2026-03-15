@@ -1,58 +1,63 @@
 /*
 =====================================================
-APPLE STYLE APP LAUNCHPAD
+IAI APP LAUNCHPAD
+Production version
 =====================================================
 */
 
 (function(){
 
-const container=document.getElementById("appLaunchpad");
+const container = document.getElementById("appLaunchpad");
 
 if(!container) return;
 
-const apps=[
+const apps = [
 
 {
 name:"LifeCode",
 url:"https://lifecode.iai.one",
-icon:"assets/icons/lifecode.png"
+icon:"/assets/icons/lifecode.svg"
 },
 
 {
 name:"IAI Flow",
 url:"https://flow.iai.one",
-icon:"assets/icons/flow.png"
+icon:"/assets/icons/flow.svg"
 },
 
 {
-name:"Nhà Chung",
-url:"https://nhachung.org",
-icon:"assets/icons/nhachung.png"
+name:"Community",
+url:"https://community.iai.one",
+icon:"/assets/icons/community.svg"
 },
 
 {
-name:"Muốn Nói",
-url:"https://muonnoi.org",
-icon:"assets/icons/muonnoi.png"
+name:"Research",
+url:"https://research.iai.one",
+icon:"/assets/icons/research.svg"
 },
 
 {
-name:"ĐSTS",
-url:"https://duongsaotoasang.com",
-icon:"assets/icons/dsts.png"
+name:"Projects",
+url:"https://projects.iai.one",
+icon:"/assets/icons/projects.svg"
 }
 
 ];
 
-apps.forEach(app=>{
 
-const el=document.createElement("div");
+apps.forEach(app => {
 
-el.className="app-icon";
+const el = document.createElement("div");
 
-el.innerHTML=`<img src="${app.icon}" width="60">`;
+el.className = "app-icon";
 
-el.onclick=()=>window.open(app.url);
+el.innerHTML = `
+<img src="${app.icon}" alt="${app.name}" class="app-img">
+<p>${app.name}</p>
+`;
+
+el.onclick = () => window.open(app.url);
 
 container.appendChild(el);
 
